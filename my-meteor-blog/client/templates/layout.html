@@ -1,7 +1,10 @@
 <template name = "layout">
 	<header>
 		<div class="container">
-			<h1>My Meteor Single Page App</h1>
+			<h1>dev-dashboard prototype</h1>
+			<h3>A Meteor Single Page App</h3>
+
+			<h5 align="right">(origin = layout.html)</h5>
 			<ul>
 				<li>
 					<a href="/">Home</a>
@@ -17,6 +20,9 @@
 
 	<div class="container">
 		<main>
+		<!-- add a TEMPLATE INCLUSION HELPER for home.htmnl -->
+		{{> home}}
+
 		</main>
 	</div>
 </template>
