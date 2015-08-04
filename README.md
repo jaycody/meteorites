@@ -17,16 +17,16 @@ meteor create my-meteor-blog
 cd my-meteor-blog
 meteor
 ```
-    - meteor will start a local server on port 3000.  open browswer and navigate to http://localhost:3000 
+     - meteor will start a local server on port 3000.  open browswer and navigate to http://localhost:3000 
 3. create the following dir structure
 >
-```
+```  
 - my-meteor-blog
     - server
     - client
         - styles
         - templates
-```
+```  
 4. add packages
      - most packages add templating functionality or provide extra objects in the global namespace of our projects
      - or add featues to meteor's build process (eg stylus package)
