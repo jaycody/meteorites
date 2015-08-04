@@ -15,6 +15,4 @@
 > cd my-meteor-blog
 > meteor
 > ```
-> - meteor will start a local server on port 3000.  open browswer and navigate to http://localhost:3000
-> - 
-> - 
+>     - meteor will start a local server on port 3000.  open browswer and navigate to http://localhost:3000 
