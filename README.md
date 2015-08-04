@@ -10,6 +10,7 @@
 1. install meteor
 ```curl https://install.meteor.com/ | sh```
 2. use meteor to create project directory, and initiate project
+     - meteor will start a local server on port 3000.  open browswer and navigate to http://localhost:3000 
 >
 ```
 cd ~/meteorites
@@ -17,7 +18,6 @@ meteor create my-meteor-blog
 cd my-meteor-blog
 meteor
 ```
-     - meteor will start a local server on port 3000.  open browswer and navigate to http://localhost:3000 
 3. create the following dir structure
 >
 ```  
