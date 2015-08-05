@@ -4,7 +4,8 @@
 ## meteor projects contained herein
 - my-meteor-blog
     + Blog app based on the work of Fabian Vogelsteller (frozeman) in his book Building Single-page Web Apps with Meteor
-
+- simple-todos
+    + basic tutorial from the meteor website.  Create a simple app to manage a 'todo' list and collaborate with others
 
 ##initial steps
 #####install meteor
