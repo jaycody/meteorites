@@ -71,5 +71,11 @@ $ meteor add less
 ####Meteor's build process
 - when running 'meteor' app, Meteor will look through ALL the HTML files available in our app's folder, **concatenating the content of all 'head' and 'body' tags as its own templates, which will be injected with its corresponding JavaScript template when the DOM is loaded.
 
+#####Adding Logic and data to templates
+- html from all .html files in the project gets concantonated into one of these 3 tags:
+    + head, body, template
+    + where everything in all head selectors ends up in one combined as one html file
+- all the code in the html files is compiled with Meteor's Spacebars compiler
+
  
 
